@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F63D1EE19550C0E00851B67 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F63D1ED19550C0E00851B67 /* AddToDoViewController.swift */; };
+		6F63D1F119550F2800851B67 /* ToDoListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F63D1F019550F2800851B67 /* ToDoListTableTableViewController.swift */; };
 		6F785AD9195502E60007A6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F785AD8195502E60007A6C1 /* AppDelegate.swift */; };
 		6F785ADC195502E60007A6C1 /* seriously.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F785ADA195502E60007A6C1 /* seriously.xcdatamodeld */; };
 		6F785ADE195502E60007A6C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F785ADD195502E60007A6C1 /* ViewController.swift */; };
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F63D1ED19550C0E00851B67 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		6F63D1F019550F2800851B67 /* ToDoListTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableTableViewController.swift; sourceTree = "<group>"; };
+		6F63D1F3195519AC00851B67 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		6F785AD3195502E50007A6C1 /* seriously.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seriously.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F785AD7195502E60007A6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F785AD8195502E60007A6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +64,8 @@
 		6F785ACA195502E50007A6C1 = {
 			isa = PBXGroup;
 			children = (
+				6F63D1F3195519AC00851B67 /* ToDoListTableViewController.h */,
+				6F63D1F019550F2800851B67 /* ToDoListTableTableViewController.swift */,
 				6F785AD5195502E50007A6C1 /* seriously */,
 				6F785AEB195502E60007A6C1 /* seriouslyTests */,
 				6F785AD4195502E50007A6C1 /* Products */,
@@ -80,6 +87,7 @@
 				6F785AD8195502E60007A6C1 /* AppDelegate.swift */,
 				6F785ADD195502E60007A6C1 /* ViewController.swift */,
 				6F785ADF195502E60007A6C1 /* Main.storyboard */,
+				6F63D1ED19550C0E00851B67 /* AddToDoViewController.swift */,
 				6F785AE2195502E60007A6C1 /* Images.xcassets */,
 				6F785ADA195502E60007A6C1 /* seriously.xcdatamodeld */,
 				6F785AD6195502E60007A6C1 /* Supporting Files */,
@@ -160,6 +168,7 @@
 				TargetAttributes = {
 					6F785AD2195502E50007A6C1 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = AM647JU5AD;
 					};
 					6F785AE7195502E60007A6C1 = {
 						CreatedOnToolsVersion = 6.0;
@@ -210,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F63D1EE19550C0E00851B67 /* AddToDoViewController.swift in Sources */,
+				6F63D1F119550F2800851B67 /* ToDoListTableTableViewController.swift in Sources */,
 				6F785ADE195502E60007A6C1 /* ViewController.swift in Sources */,
 				6F785AD9195502E60007A6C1 /* AppDelegate.swift in Sources */,
 				6F785ADC195502E60007A6C1 /* seriously.xcdatamodeld in Sources */,
@@ -328,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seriously/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seriously/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +413,7 @@
 				6F785AF4195502E70007A6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F785AF5195502E70007A6C1 /* Build configuration list for PBXNativeTarget "seriouslyTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +422,7 @@
 				6F785AF7195502E70007A6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
