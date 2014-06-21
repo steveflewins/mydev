@@ -17,36 +17,6 @@
             endingLineNumber = "11"
             landmarkName = "AddToDoListTableViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "seriously.AddToDoListTableViewController.init (seriously.AddToDoListTableViewController.Type)(style : C.UITableViewStyle) -&gt; seriously.AddToDoListTableViewController"
-                  moduleName = "seriously"
-                  urlString = "file:///Users/stevemusic/Documents/swift%20projects/seriouslysgl/seriously/seriously/AddToDoViewController.swift"
-                  timestampString = "425007613.974278"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "38">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "seriously.AddToDoListTableViewController.init (seriously.AddToDoListTableViewController.Type)(coder : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSCoder&gt;) -&gt; seriously.AddToDoListTableViewController"
-                  moduleName = "seriously"
-                  urlString = "file:///Users/stevemusic/Documents/swift%20projects/seriouslysgl/seriously/seriously/AddToDoViewController.swift"
-                  timestampString = "425007613.974529"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "38">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
